@@ -1,0 +1,366 @@
+body {
+  padding: 0;
+  margin: 0;
+}
+#menu__toggle {
+  opacity: 0;
+}
+#menu__toggle:checked + .menu__btn > span {
+  transform: rotate(45deg);
+}
+#menu__toggle:checked + .menu__btn > span::before {
+  top: 0;
+  transform: rotate(0deg);
+}
+#menu__toggle:checked + .menu__btn > span::after {
+  top: 0;
+  transform: rotate(90deg);
+}
+#menu__toggle:checked ~ .menu__box {
+  right: 0 !important;
+  margin-right: 108px;
+  position: absolute;
+}
+.menu__btn {
+  position: absolute;
+  top: 77px;
+  right: 100px;
+  width: 26px;
+  height: 26px;
+  cursor: pointer;
+  z-index: 1;
+}
+.menu__btn > span,
+.menu__btn > span::before,
+.menu__btn > span::after {
+  display: block;
+  position: absolute;
+  width: 100%;
+  height: 2px;
+  background-color: #ffffff;
+  transition-duration: 0.25s;
+}
+.menu__btn > span::before {
+  content: "";
+  top: -8px;
+}
+.menu__btn > span::after {
+  content: "";
+  top: 8px;
+}
+.menu__box {
+  border-radius: 32px;
+  display: block;
+  position: fixed;
+  text-align: center;
+  top: 85px;
+  right: -100%;
+  margin: 0;
+  padding: 20px 14px;
+  list-style: none;
+  background-color: #ffff;
+  box-shadow: 2px 2px 4px 2px rgba(0, 0, 0, 0.4);
+}
+.menu__item {
+  display: block;
+  padding: 8px 22px;
+  color: #73574b;
+  text-decoration: none;
+}
+.menu__item:hover {
+  background-color: #ffff;
+}
+
+.menu-spacing {
+  margin-left: 10px;
+  display: flex;
+  align-items: center;
+  font-family: "Noto Kufi Arabic", "Open Sans";
+  font-weight: bold;
+}
+
+.direction{
+  direction: rtl;
+}
+
+input[type="text"] {
+  border: 1px solid #646e82;
+  border-color: #646e82;
+  color: rgba(115, 87, 75, 1);
+  width: 289px;
+  height: 71px;
+  padding: 10px 25px;
+  border-radius: 100px;
+  font-family: "Noto Kufi Arabic", "Open Sans";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 125.99%;
+  text-align: center;
+  outline: none;
+}
+input[type="text"]:focus {
+  border: 2px solid rgba(115, 87, 75, 1);
+}
+
+#ans-box {
+  justify-content: center;
+  margin-bottom: 12px;
+}
+
+
+
+#answer-btn {
+  white-space: nowrap;
+  margin-top: 12px;
+  background-color: #ac8a45;
+  padding: 10px 80px;
+  color: #ffff;
+  border-radius: 91px;
+  width: 289px;
+  height: 71px;
+  font-family: "Noto Kufi Arabic", "Open Sans";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 27px;
+  border: 0px;
+  animation: slide-up 0.25s;
+  cursor: pointer;
+}
+
+#info{
+  width: 210px;
+}
+
+.dashed{
+  text-decoration-line: line-through;
+}
+
+.flexItems {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  justify-content: center;
+}
+
+@keyframes slide-up {
+  from {
+    margin-top: 5%;
+  }
+
+  to {
+    margin-top: 2%;
+  }
+}
+
+@keyframes slide-down {
+  from {
+    margin-top: 2%;
+  }
+
+  to {
+    margin-top: 5%;
+  }
+}
+
+.score {
+  background-color: #fff8e9;
+  padding: 1rem;
+  border-radius: 69px;
+  min-width: 228px;
+}
+
+#questionStyle {
+  text-align: center;
+  font-family: "Noto Kufi Arabic", "Open Sans";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 125.99%;
+  color: #73574b;
+  margin-top: 38px;
+}
+.verseStyle {
+  font-family: "Noto Kufi Arabic", "Open Sans";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 173.68%;
+  max-width: 720px;
+  height: 126px;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  color: rgba(115, 87, 75, 0.8);
+}
+#verse{
+  overflow: scroll;
+  overflow-x: hidden;
+  height: 120px;
+  scrollbar-width: none;
+
+
+}
+::-webkit-scrollbar {
+  display: none;
+}
+
+.invisible{
+  display: none !important;
+}
+
+#overlay {
+  position: fixed; /* Sit on top of the page content */
+  display: block; /* Hidden by default */
+  width: 100%; /* Full width (cover the whole page) */
+  height: 100%; /* Full height (cover the whole page) */
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, 0.5); /* Black background with opacity */
+  z-index: 2; /* Specify a stack order in case you're using a different order for other elements */
+   /* Add a pointer on hover */
+}
+
+#text {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  font-size: 50px;
+  color: white;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  font-family: "Noto Kufi Arabic", "Open Sans";
+  font-style: normal;
+  color: rgba(115, 87, 75, 0.8);
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 42px;
+  background-color: #ffff;
+  text-align: center;
+  padding: 48px;
+  border-radius: 76px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-self: center;
+  gap: 32px;
+  width: 60%;
+}
+
+
+.resp {
+  color: rgba(115, 87, 75, 1);
+  font-weight: 700;
+}
+
+.directionLtr{
+  direction: ltr !important;
+
+}
+
+
+@media screen and (max-width: 806px) {
+  body {
+    font-size: 1rem;
+  }
+  .top-nav {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  #text{
+    font-size: 18px !important;
+  }
+  #elipse {
+    display: none;
+  }
+  .direction{
+    direction: rtl;
+  }
+
+  .directionLtr{
+    direction: ltr !important;
+    width: 20% !important;
+  }
+
+  .menu__btn > span,
+  .menu__btn > span::before,
+  .menu__btn > span::after {
+    background-color: #382020;
+  }
+
+  .score {
+    margin-top: 30px;
+    margin-bottom: 0 !important;
+    margin-left: -100px !important;
+  }
+  #menu__toggle:checked ~ .menu__box {
+    right: 0 !important;
+    margin-right: 30%;
+    margin-top: 15px;
+  }
+  #questionStyle {
+    font-size: medium;
+    font-family: "Noto Kufi Arabic", "Open Sans";
+    font-weight: bolder;
+  }
+
+  .verseStyle {
+    width: 50%;
+    font-size: medium;
+    font-weight: bolder;
+  }
+
+  .answer-btn {
+    padding: 0;
+    width: 150px !important;
+    height: 41px !important;
+  }
+
+  #info{
+    width: 155px !important;
+  }
+
+  .choice {
+    font-size: small !important;
+    white-space: nowrap;
+  }
+
+  #choiceBoxes {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+}
+
+input[type="radio"] {
+  display: none;
+}
+
+#choiceBoxes label {
+  display: inline-block;
+  max-width: max-content;
+  padding: 4px 11px;
+  min-width: 240px;
+  font-family: "Noto Kufi Arabic", "Open Sans";
+  font-size: 18px;
+  cursor: pointer;
+  border-radius: 27px;
+  margin: 5px;
+  border: 1px solid #ac8a45;
+}
+input[type="radio"]:checked + label {
+  background-color: #ac8a45;
+  color: #fff8e9;
+}
+
+#choiceBoxes label:hover {
+  background-color: #ac8a45;
+  color: white;
+  opacity: 70%;
+  cursor: pointer;
+}
