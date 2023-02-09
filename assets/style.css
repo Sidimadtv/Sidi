@@ -1,0 +1,21 @@
+.title h1{
+    color: #fff;
+    text-align: center;
+    display: block;
+    font-size: 70px;
+    letter-spacing: 4px;
+    font-family: 'Lobster', cursive;
+}
+
+.footer{
+    position:absolute;
+    bottom:0;
+    width:99%;
+    height:60px;
+    font-family: 'Lobster', cursive;
+    font-weight: normal;
+    font-size: 11px;
+    letter-spacing: 4px;
+    color:#fff;
+    text-align: center;
+}
