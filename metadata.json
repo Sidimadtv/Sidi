@@ -1,0 +1,1799 @@
+[ 
+    {
+        "chapter": "1",
+        "place_of_revelation": "makkah",
+        "name": "Al-Fatihah",
+        "translated_name": "The Opener",
+        "verse_count": 7,
+        "slug": "al-fatihah",
+        "codepoints": [
+            1575,
+            1604,
+            1601,
+            1575,
+            1578,
+            1581,
+            1577
+        ]
+    },
+    {
+        "chapter": "2",
+        "place_of_revelation": "madinah",
+        "name": "Al-Baqarah",
+        "translated_name": "The Cow",
+        "verse_count": 286,
+        "slug": "al-baqarah",
+        "codepoints": [
+            1575,
+            1604,
+            1576,
+            1602,
+            1585,
+            1577
+        ]
+    },
+    {
+        "chapter": "3",
+        "place_of_revelation": "madinah",
+        "name": "Ali 'Imran",
+        "translated_name": "Family of Imran",
+        "verse_count": 200,
+        "slug": "ali-imran",
+        "codepoints": [
+            1570,
+            1604,
+            32,
+            1593,
+            1605,
+            1585,
+            1575,
+            1606
+        ]
+    },
+    {
+        "chapter": "4",
+        "place_of_revelation": "madinah",
+        "name": "An-Nisa",
+        "translated_name": "The Women",
+        "verse_count": 176,
+        "slug": "an-nisa",
+        "codepoints": [
+            1575,
+            1604,
+            1606,
+            1587,
+            1575,
+            1569
+        ]
+    },
+    {
+        "chapter": "5",
+        "place_of_revelation": "madinah",
+        "name": "Al-Ma'idah",
+        "translated_name": "The Table Spread",
+        "verse_count": 120,
+        "slug": "al-maidah",
+        "codepoints": [
+            1575,
+            1604,
+            1605,
+            1575,
+            1574,
+            1583,
+            1577
+        ]
+    },
+    {
+        "chapter": "6",
+        "place_of_revelation": "makkah",
+        "name": "Al-An'am",
+        "translated_name": "The Cattle",
+        "verse_count": 165,
+        "slug": "al-anam",
+        "codepoints": [
+            1575,
+            1604,
+            1571,
+            1606,
+            1593,
+            1575,
+            1605
+        ]
+    },
+    {
+        "chapter": "7",
+        "place_of_revelation": "makkah",
+        "name": "Al-A'raf",
+        "translated_name": "The Heights",
+        "verse_count": 206,
+        "slug": "al-araf",
+        "codepoints": [
+            1575,
+            1604,
+            1571,
+            1593,
+            1585,
+            1575,
+            1601
+        ]
+    },
+    {
+        "chapter": "8",
+        "place_of_revelation": "madinah",
+        "name": "Al-Anfal",
+        "translated_name": "The Spoils of War",
+        "verse_count": 75,
+        "slug": "al-anfal",
+        "codepoints": [
+            1575,
+            1604,
+            1571,
+            1606,
+            1601,
+            1575,
+            1604
+        ]
+    },
+    {
+        "chapter": "9",
+        "place_of_revelation": "madinah",
+        "name": "At-Tawbah",
+        "translated_name": "The Repentance",
+        "verse_count": 129,
+        "slug": "at-tawbah",
+        "codepoints": [
+            1575,
+            1604,
+            1578,
+            1608,
+            1576,
+            1577
+        ]
+    },
+    {
+        "chapter": "10",
+        "place_of_revelation": "makkah",
+        "name": "Yunus",
+        "translated_name": "Jonah",
+        "verse_count": 109,
+        "slug": "yunus",
+        "codepoints": [
+            1610,
+            1608,
+            1606,
+            1587
+        ]
+    },
+    {
+        "chapter": "11",
+        "place_of_revelation": "makkah",
+        "name": "Hud",
+        "translated_name": "Hud",
+        "verse_count": 123,
+        "slug": "hud",
+        "codepoints": [
+            1607,
+            1608,
+            1583
+        ]
+    },
+    {
+        "chapter": "12",
+        "place_of_revelation": "makkah",
+        "name": "Yusuf",
+        "translated_name": "Joseph",
+        "verse_count": 111,
+        "slug": "yusuf",
+        "codepoints": [
+            1610,
+            1608,
+            1587,
+            1601
+        ]
+    },
+    {
+        "chapter": "13",
+        "place_of_revelation": "madinah",
+        "name": "Ar-Ra'd",
+        "translated_name": "The Thunder",
+        "verse_count": 43,
+        "slug": "ar-rad",
+        "codepoints": [
+            1575,
+            1604,
+            1585,
+            1593,
+            1583
+        ]
+    },
+    {
+        "chapter": "14",
+        "place_of_revelation": "makkah",
+        "name": "Ibrahim",
+        "translated_name": "Abraham",
+        "verse_count": 52,
+        "slug": "ibrahim",
+        "codepoints": [
+            1575,
+            1576,
+            1585,
+            1575,
+            1607,
+            1610,
+            1605
+        ]
+    },
+    {
+        "chapter": "15",
+        "place_of_revelation": "makkah",
+        "name": "Al-Hijr",
+        "translated_name": "The Rocky Tract",
+        "verse_count": 99,
+        "slug": "al-hijr",
+        "codepoints": [
+            1575,
+            1604,
+            1581,
+            1580,
+            1585
+        ]
+    },
+    {
+        "chapter": "16",
+        "place_of_revelation": "makkah",
+        "name": "An-Nahl",
+        "translated_name": "The Bee",
+        "verse_count": 128,
+        "slug": "an-nahl",
+        "codepoints": [
+            1575,
+            1604,
+            1606,
+            1581,
+            1604
+        ]
+    },
+    {
+        "chapter": "17",
+        "place_of_revelation": "makkah",
+        "name": "Al-Isra",
+        "translated_name": "The Night Journey",
+        "verse_count": 111,
+        "slug": "al-isra",
+        "codepoints": [
+            1575,
+            1604,
+            1573,
+            1587,
+            1585,
+            1575,
+            1569
+        ]
+    },
+    {
+        "chapter": "18",
+        "place_of_revelation": "makkah",
+        "name": "Al-Kahf",
+        "translated_name": "The Cave",
+        "verse_count": 110,
+        "slug": "al-kahf",
+        "codepoints": [
+            1575,
+            1604,
+            1603,
+            1607,
+            1601
+        ]
+    },
+    {
+        "chapter": "19",
+        "place_of_revelation": "makkah",
+        "name": "Maryam",
+        "translated_name": "Mary",
+        "verse_count": 98,
+        "slug": "maryam",
+        "codepoints": [
+            1605,
+            1585,
+            1610,
+            1605
+        ]
+    },
+    {
+        "chapter": "20",
+        "place_of_revelation": "makkah",
+        "name": "Taha",
+        "translated_name": "Ta-Ha",
+        "verse_count": 135,
+        "slug": "taha",
+        "codepoints": [
+            1591,
+            1607
+        ]
+    },
+    {
+        "chapter": "21",
+        "place_of_revelation": "makkah",
+        "name": "Al-Anbya",
+        "translated_name": "The Prophets",
+        "verse_count": 112,
+        "slug": "al-anbya",
+        "codepoints": [
+            1575,
+            1604,
+            1571,
+            1606,
+            1576,
+            1610,
+            1575,
+            1569
+        ]
+    },
+    {
+        "chapter": "22",
+        "place_of_revelation": "madinah",
+        "name": "Al-Hajj",
+        "translated_name": "The Pilgrimage",
+        "verse_count": 78,
+        "slug": "al-hajj",
+        "codepoints": [
+            1575,
+            1604,
+            1581,
+            1580
+        ]
+    },
+    {
+        "chapter": "23",
+        "place_of_revelation": "makkah",
+        "name": "Al-Mu'minun",
+        "translated_name": "The Believers",
+        "verse_count": 118,
+        "slug": "al-muminun",
+        "codepoints": [
+            1575,
+            1604,
+            1605,
+            1572,
+            1605,
+            1606,
+            1608,
+            1606
+        ]
+    },
+    {
+        "chapter": "24",
+        "place_of_revelation": "madinah",
+        "name": "An-Nur",
+        "translated_name": "The Light",
+        "verse_count": 64,
+        "slug": "an-nur",
+        "codepoints": [
+            1575,
+            1604,
+            1606,
+            1608,
+            1585
+        ]
+    },
+    {
+        "chapter": "25",
+        "place_of_revelation": "makkah",
+        "name": "Al-Furqan",
+        "translated_name": "The Criterion",
+        "verse_count": 77,
+        "slug": "al-furqan",
+        "codepoints": [
+            1575,
+            1604,
+            1601,
+            1585,
+            1602,
+            1575,
+            1606
+        ]
+    },
+    {
+        "chapter": "26",
+        "place_of_revelation": "makkah",
+        "name": "Ash-Shu'ara",
+        "translated_name": "The Poets",
+        "verse_count": 227,
+        "slug": "ash-shuara",
+        "codepoints": [
+            1575,
+            1604,
+            1588,
+            1593,
+            1585,
+            1575,
+            1569
+        ]
+    },
+    {
+        "chapter": "27",
+        "place_of_revelation": "makkah",
+        "name": "An-Naml",
+        "translated_name": "The Ant",
+        "verse_count": 93,
+        "slug": "an-naml",
+        "codepoints": [
+            1575,
+            1604,
+            1606,
+            1605,
+            1604
+        ]
+    },
+    {
+        "chapter": "28",
+        "place_of_revelation": "makkah",
+        "name": "Al-Qasas",
+        "translated_name": "The Stories",
+        "verse_count": 88,
+        "slug": "al-qasas",
+        "codepoints": [
+            1575,
+            1604,
+            1602,
+            1589,
+            1589
+        ]
+    },
+    {
+        "chapter": "29",
+        "place_of_revelation": "makkah",
+        "name": "Al-'Ankabut",
+        "translated_name": "The Spider",
+        "verse_count": 69,
+        "slug": "al-ankabut",
+        "codepoints": [
+            1575,
+            1604,
+            1593,
+            1606,
+            1603,
+            1576,
+            1608,
+            1578
+        ]
+    },
+    {
+        "chapter": "30",
+        "place_of_revelation": "makkah",
+        "name": "Ar-Rum",
+        "translated_name": "The Romans",
+        "verse_count": 60,
+        "slug": "ar-rum",
+        "codepoints": [
+            1575,
+            1604,
+            1585,
+            1608,
+            1605
+        ]
+    },
+    {
+        "chapter": "31",
+        "place_of_revelation": "makkah",
+        "name": "Luqman",
+        "translated_name": "Luqman",
+        "verse_count": 34,
+        "slug": "luqman",
+        "codepoints": [
+            1604,
+            1602,
+            1605,
+            1575,
+            1606
+        ]
+    },
+    {
+        "chapter": "32",
+        "place_of_revelation": "makkah",
+        "name": "As-Sajdah",
+        "translated_name": "The Prostration",
+        "verse_count": 30,
+        "slug": "as-sajdah",
+        "codepoints": [
+            1575,
+            1604,
+            1587,
+            1580,
+            1583,
+            1577
+        ]
+    },
+    {
+        "chapter": "33",
+        "place_of_revelation": "madinah",
+        "name": "Al-Ahzab",
+        "translated_name": "The Combined Forces",
+        "verse_count": 73,
+        "slug": "al-ahzab",
+        "codepoints": [
+            1575,
+            1604,
+            1571,
+            1581,
+            1586,
+            1575,
+            1576
+        ]
+    },
+    {
+        "chapter": "34",
+        "place_of_revelation": "makkah",
+        "name": "Saba",
+        "translated_name": "Sheba",
+        "verse_count": 54,
+        "slug": "saba",
+        "codepoints": [
+            1587,
+            1576,
+            1573
+        ]
+    },
+    {
+        "chapter": "35",
+        "place_of_revelation": "makkah",
+        "name": "Fatir",
+        "translated_name": "Originator",
+        "verse_count": 45,
+        "slug": "fatir",
+        "codepoints": [
+            1601,
+            1575,
+            1591,
+            1585
+        ]
+    },
+    {
+        "chapter": "36",
+        "place_of_revelation": "makkah",
+        "name": "Ya-Sin",
+        "translated_name": "Ya Sin",
+        "verse_count": 83,
+        "slug": "ya-sin",
+        "codepoints": [
+            1610,
+            1587
+        ]
+    },
+    {
+        "chapter": "37",
+        "place_of_revelation": "makkah",
+        "name": "As-Saffat",
+        "translated_name": "Those who set the Ranks",
+        "verse_count": 182,
+        "slug": "as-saffat",
+        "codepoints": [
+            1575,
+            1604,
+            1589,
+            1575,
+            1601,
+            1575,
+            1578
+        ]
+    },
+    {
+        "chapter": "38",
+        "place_of_revelation": "makkah",
+        "name": "Sad",
+        "translated_name": "The Letter \"Saad\"",
+        "verse_count": 88,
+        "slug": "sad",
+        "codepoints": [
+            1589
+        ]
+    },
+    {
+        "chapter": "39",
+        "place_of_revelation": "makkah",
+        "name": "Az-Zumar",
+        "translated_name": "The Troops",
+        "verse_count": 75,
+        "slug": "az-zumar",
+        "codepoints": [
+            1575,
+            1604,
+            1586,
+            1605,
+            1585
+        ]
+    },
+    {
+        "chapter": "40",
+        "place_of_revelation": "makkah",
+        "name": "Ghafir",
+        "translated_name": "The Forgiver",
+        "verse_count": 85,
+        "slug": "ghafir",
+        "codepoints": [
+            1594,
+            1575,
+            1601,
+            1585
+        ]
+    },
+    {
+        "chapter": "41",
+        "place_of_revelation": "makkah",
+        "name": "Fussilat",
+        "translated_name": "Explained in Detail",
+        "verse_count": 54,
+        "slug": "fussilat",
+        "codepoints": [
+            1601,
+            1589,
+            1604,
+            1578
+        ]
+    },
+    {
+        "chapter": "42",
+        "place_of_revelation": "makkah",
+        "name": "Ash-Shuraa",
+        "translated_name": "The Consultation",
+        "verse_count": 53,
+        "slug": "ash-shuraa",
+        "codepoints": [
+            1575,
+            1604,
+            1588,
+            1608,
+            1585,
+            1609
+        ]
+    },
+    {
+        "chapter": "43",
+        "place_of_revelation": "makkah",
+        "name": "Az-Zukhruf",
+        "translated_name": "The Ornaments of Gold",
+        "verse_count": 89,
+        "slug": "az-zukhruf",
+        "codepoints": [
+            1575,
+            1604,
+            1586,
+            1582,
+            1585,
+            1601
+        ]
+    },
+    {
+        "chapter": "44",
+        "place_of_revelation": "makkah",
+        "name": "Ad-Dukhan",
+        "translated_name": "The Smoke",
+        "verse_count": 59,
+        "slug": "ad-dukhan",
+        "codepoints": [
+            1575,
+            1604,
+            1583,
+            1582,
+            1575,
+            1606
+        ]
+    },
+    {
+        "chapter": "45",
+        "place_of_revelation": "makkah",
+        "name": "Al-Jathiyah",
+        "translated_name": "The Crouching",
+        "verse_count": 37,
+        "slug": "al-jathiyah",
+        "codepoints": [
+            1575,
+            1604,
+            1580,
+            1575,
+            1579,
+            1610,
+            1577
+        ]
+    },
+    {
+        "chapter": "46",
+        "place_of_revelation": "makkah",
+        "name": "Al-Ahqaf",
+        "translated_name": "The Wind-Curved Sandhills",
+        "verse_count": 35,
+        "slug": "al-ahqaf",
+        "codepoints": [
+            1575,
+            1604,
+            1571,
+            1581,
+            1602,
+            1575,
+            1601
+        ]
+    },
+    {
+        "chapter": "47",
+        "place_of_revelation": "madinah",
+        "name": "Muhammad",
+        "translated_name": "Muhammad",
+        "verse_count": 38,
+        "slug": "muhammad",
+        "codepoints": [
+            1605,
+            1581,
+            1605,
+            1583
+        ]
+    },
+    {
+        "chapter": "48",
+        "place_of_revelation": "madinah",
+        "name": "Al-Fath",
+        "translated_name": "The Victory",
+        "verse_count": 29,
+        "slug": "al-fath",
+        "codepoints": [
+            1575,
+            1604,
+            1601,
+            1578,
+            1581
+        ]
+    },
+    {
+        "chapter": "49",
+        "place_of_revelation": "madinah",
+        "name": "Al-Hujurat",
+        "translated_name": "The Rooms",
+        "verse_count": 18,
+        "slug": "al-hujurat",
+        "codepoints": [
+            1575,
+            1604,
+            1581,
+            1580,
+            1585,
+            1575,
+            1578
+        ]
+    },
+    {
+        "chapter": "50",
+        "place_of_revelation": "makkah",
+        "name": "Qaf",
+        "translated_name": "The Letter \"Qaf\"",
+        "verse_count": 45,
+        "slug": "qaf",
+        "codepoints": [
+            1602
+        ]
+    },
+    {
+        "chapter": "51",
+        "place_of_revelation": "makkah",
+        "name": "Adh-Dhariyat",
+        "translated_name": "The Winnowing Winds",
+        "verse_count": 60,
+        "slug": "adh-dhariyat",
+        "codepoints": [
+            1575,
+            1604,
+            1584,
+            1575,
+            1585,
+            1610,
+            1575,
+            1578
+        ]
+    },
+    {
+        "chapter": "52",
+        "place_of_revelation": "makkah",
+        "name": "At-Tur",
+        "translated_name": "The Mount",
+        "verse_count": 49,
+        "slug": "at-tur",
+        "codepoints": [
+            1575,
+            1604,
+            1591,
+            1608,
+            1585
+        ]
+    },
+    {
+        "chapter": "53",
+        "place_of_revelation": "makkah",
+        "name": "An-Najm",
+        "translated_name": "The Star",
+        "verse_count": 62,
+        "slug": "an-najm",
+        "codepoints": [
+            1575,
+            1604,
+            1606,
+            1580,
+            1605
+        ]
+    },
+    {
+        "chapter": "54",
+        "place_of_revelation": "makkah",
+        "name": "Al-Qamar",
+        "translated_name": "The Moon",
+        "verse_count": 55,
+        "slug": "al-qamar",
+        "codepoints": [
+            1575,
+            1604,
+            1602,
+            1605,
+            1585
+        ]
+    },
+    {
+        "chapter": "55",
+        "place_of_revelation": "madinah",
+        "name": "Ar-Rahman",
+        "translated_name": "The Beneficent",
+        "verse_count": 78,
+        "slug": "ar-rahman",
+        "codepoints": [
+            1575,
+            1604,
+            1585,
+            1581,
+            1605,
+            1606
+        ]
+    },
+    {
+        "chapter": "56",
+        "place_of_revelation": "makkah",
+        "name": "Al-Waqi'ah",
+        "translated_name": "The Inevitable",
+        "verse_count": 96,
+        "slug": "al-waqiah",
+        "codepoints": [
+            1575,
+            1604,
+            1608,
+            1575,
+            1602,
+            1593,
+            1577
+        ]
+    },
+    {
+        "chapter": "57",
+        "place_of_revelation": "madinah",
+        "name": "Al-Hadid",
+        "translated_name": "The Iron",
+        "verse_count": 29,
+        "slug": "al-hadid",
+        "codepoints": [
+            1575,
+            1604,
+            1581,
+            1583,
+            1610,
+            1583
+        ]
+    },
+    {
+        "chapter": "58",
+        "place_of_revelation": "madinah",
+        "name": "Al-Mujadila",
+        "translated_name": "The Pleading Woman",
+        "verse_count": 22,
+        "slug": "al-mujadila",
+        "codepoints": [
+            1575,
+            1604,
+            1605,
+            1580,
+            1575,
+            1583,
+            1604,
+            1577
+        ]
+    },
+    {
+        "chapter": "59",
+        "place_of_revelation": "madinah",
+        "name": "Al-Hashr",
+        "translated_name": "The Exile",
+        "verse_count": 24,
+        "slug": "al-hashr",
+        "codepoints": [
+            1575,
+            1604,
+            1581,
+            1588,
+            1585
+        ]
+    },
+    {
+        "chapter": "60",
+        "place_of_revelation": "madinah",
+        "name": "Al-Mumtahanah",
+        "translated_name": "She that is to be examined",
+        "verse_count": 13,
+        "slug": "al-mumtahanah",
+        "codepoints": [
+            1575,
+            1604,
+            1605,
+            1605,
+            1578,
+            1581,
+            1606,
+            1577
+        ]
+    },
+    {
+        "chapter": "61",
+        "place_of_revelation": "madinah",
+        "name": "As-Saf",
+        "translated_name": "The Ranks",
+        "verse_count": 14,
+        "slug": "as-saf",
+        "codepoints": [
+            1575,
+            1604,
+            1589,
+            1601
+        ]
+    },
+    {
+        "chapter": "62",
+        "place_of_revelation": "madinah",
+        "name": "Al-Jumu'ah",
+        "translated_name": "The Congregation, Friday",
+        "verse_count": 11,
+        "slug": "al-jumuah",
+        "codepoints": [
+            1575,
+            1604,
+            1580,
+            1605,
+            1593,
+            1577
+        ]
+    },
+    {
+        "chapter": "63",
+        "place_of_revelation": "madinah",
+        "name": "Al-Munafiqun",
+        "translated_name": "The Hypocrites",
+        "verse_count": 11,
+        "slug": "al-munafiqun",
+        "codepoints": [
+            1575,
+            1604,
+            1605,
+            1606,
+            1575,
+            1601,
+            1602,
+            1608,
+            1606
+        ]
+    },
+    {
+        "chapter": "64",
+        "place_of_revelation": "madinah",
+        "name": "At-Taghabun",
+        "translated_name": "The Mutual Disillusion",
+        "verse_count": 18,
+        "slug": "at-taghabun",
+        "codepoints": [
+            1575,
+            1604,
+            1578,
+            1594,
+            1575,
+            1576,
+            1606
+        ]
+    },
+    {
+        "chapter": "65",
+        "place_of_revelation": "madinah",
+        "name": "At-Talaq",
+        "translated_name": "The Divorce",
+        "verse_count": 12,
+        "slug": "at-talaq",
+        "codepoints": [
+            1575,
+            1604,
+            1591,
+            1604,
+            1575,
+            1602
+        ]
+    },
+    {
+        "chapter": "66",
+        "place_of_revelation": "madinah",
+        "name": "At-Tahrim",
+        "translated_name": "The Prohibition",
+        "verse_count": 12,
+        "slug": "at-tahrim",
+        "codepoints": [
+            1575,
+            1604,
+            1578,
+            1581,
+            1585,
+            1610,
+            1605
+        ]
+    },
+    {
+        "chapter": "67",
+        "place_of_revelation": "makkah",
+        "name": "Al-Mulk",
+        "translated_name": "The Sovereignty",
+        "verse_count": 30,
+        "slug": "al-mulk",
+        "codepoints": [
+            1575,
+            1604,
+            1605,
+            1604,
+            1603
+        ]
+    },
+    {
+        "chapter": "68",
+        "place_of_revelation": "makkah",
+        "name": "Al-Qalam",
+        "translated_name": "The Pen",
+        "verse_count": 52,
+        "slug": "al-qalam",
+        "codepoints": [
+            1575,
+            1604,
+            1602,
+            1604,
+            1605
+        ]
+    },
+    {
+        "chapter": "69",
+        "place_of_revelation": "makkah",
+        "name": "Al-Haqqah",
+        "translated_name": "The Reality",
+        "verse_count": 52,
+        "slug": "al-haqqah",
+        "codepoints": [
+            1575,
+            1604,
+            1581,
+            1575,
+            1602,
+            1577
+        ]
+    },
+    {
+        "chapter": "70",
+        "place_of_revelation": "makkah",
+        "name": "Al-Ma'arij",
+        "translated_name": "The Ascending Stairways",
+        "verse_count": 44,
+        "slug": "al-maarij",
+        "codepoints": [
+            1575,
+            1604,
+            1605,
+            1593,
+            1575,
+            1585,
+            1580
+        ]
+    },
+    {
+        "chapter": "71",
+        "place_of_revelation": "makkah",
+        "name": "Nuh",
+        "translated_name": "Noah",
+        "verse_count": 28,
+        "slug": "nuh",
+        "codepoints": [
+            1606,
+            1608,
+            1581
+        ]
+    },
+    {
+        "chapter": "72",
+        "place_of_revelation": "makkah",
+        "name": "Al-Jinn",
+        "translated_name": "The Jinn",
+        "verse_count": 28,
+        "slug": "al-jinn",
+        "codepoints": [
+            1575,
+            1604,
+            1580,
+            1606
+        ]
+    },
+    {
+        "chapter": "73",
+        "place_of_revelation": "makkah",
+        "name": "Al-Muzzammil",
+        "translated_name": "The Enshrouded One",
+        "verse_count": 20,
+        "slug": "al-muzzammil",
+        "codepoints": [
+            1575,
+            1604,
+            1605,
+            1586,
+            1605,
+            1604
+        ]
+    },
+    {
+        "chapter": "74",
+        "place_of_revelation": "makkah",
+        "name": "Al-Muddaththir",
+        "translated_name": "The Cloaked One",
+        "verse_count": 56,
+        "slug": "al-muddaththir",
+        "codepoints": [
+            1575,
+            1604,
+            1605,
+            1583,
+            1579,
+            1585
+        ]
+    },
+    {
+        "chapter": "75",
+        "place_of_revelation": "makkah",
+        "name": "Al-Qiyamah",
+        "translated_name": "The Resurrection",
+        "verse_count": 40,
+        "slug": "al-qiyamah",
+        "codepoints": [
+            1575,
+            1604,
+            1602,
+            1610,
+            1575,
+            1605,
+            1577
+        ]
+    },
+    {
+        "chapter": "76",
+        "place_of_revelation": "madinah",
+        "name": "Al-Insan",
+        "translated_name": "The Man",
+        "verse_count": 31,
+        "slug": "al-insan",
+        "codepoints": [
+            1575,
+            1604,
+            1575,
+            1606,
+            1587,
+            1575,
+            1606
+        ]
+    },
+    {
+        "chapter": "77",
+        "place_of_revelation": "makkah",
+        "name": "Al-Mursalat",
+        "translated_name": "The Emissaries",
+        "verse_count": 50,
+        "slug": "al-mursalat",
+        "codepoints": [
+            1575,
+            1604,
+            1605,
+            1585,
+            1587,
+            1604,
+            1575,
+            1578
+        ]
+    },
+    {
+        "chapter": "78",
+        "place_of_revelation": "makkah",
+        "name": "An-Naba",
+        "translated_name": "The Tidings",
+        "verse_count": 40,
+        "slug": "an-naba",
+        "codepoints": [
+            1575,
+            1604,
+            1606,
+            1576,
+            1573
+        ]
+    },
+    {
+        "chapter": "79",
+        "place_of_revelation": "makkah",
+        "name": "An-Nazi'at",
+        "translated_name": "Those who drag forth",
+        "verse_count": 46,
+        "slug": "an-naziat",
+        "codepoints": [
+            1575,
+            1604,
+            1606,
+            1575,
+            1586,
+            1593,
+            1575,
+            1578
+        ]
+    },
+    {
+        "chapter": "80",
+        "place_of_revelation": "makkah",
+        "name": "'Abasa",
+        "translated_name": "He Frowned",
+        "verse_count": 42,
+        "slug": "abasa",
+        "codepoints": [
+            1593,
+            1576,
+            1587
+        ]
+    },
+    {
+        "chapter": "81",
+        "place_of_revelation": "makkah",
+        "name": "At-Takwir",
+        "translated_name": "The Overthrowing",
+        "verse_count": 29,
+        "slug": "at-takwir",
+        "codepoints": [
+            1575,
+            1604,
+            1578,
+            1603,
+            1608,
+            1610,
+            1585
+        ]
+    },
+    {
+        "chapter": "82",
+        "place_of_revelation": "makkah",
+        "name": "Al-Infitar",
+        "translated_name": "The Cleaving",
+        "verse_count": 19,
+        "slug": "al-infitar",
+        "codepoints": [
+            1575,
+            1604,
+            1573,
+            1606,
+            1601,
+            1591,
+            1575,
+            1585
+        ]
+    },
+    {
+        "chapter": "83",
+        "place_of_revelation": "makkah",
+        "name": "Al-Mutaffifin",
+        "translated_name": "The Defrauding",
+        "verse_count": 36,
+        "slug": "al-mutaffifin",
+        "codepoints": [
+            1575,
+            1604,
+            1605,
+            1591,
+            1601,
+            1601,
+            1610,
+            1606
+        ]
+    },
+    {
+        "chapter": "84",
+        "place_of_revelation": "makkah",
+        "name": "Al-Inshiqaq",
+        "translated_name": "The Sundering",
+        "verse_count": 25,
+        "slug": "al-inshiqaq",
+        "codepoints": [
+            1575,
+            1604,
+            1573,
+            1606,
+            1588,
+            1602,
+            1575,
+            1602
+        ]
+    },
+    {
+        "chapter": "85",
+        "place_of_revelation": "makkah",
+        "name": "Al-Buruj",
+        "translated_name": "The Mansions of the Stars",
+        "verse_count": 22,
+        "slug": "al-buruj",
+        "codepoints": [
+            1575,
+            1604,
+            1576,
+            1585,
+            1608,
+            1580
+        ]
+    },
+    {
+        "chapter": "86",
+        "place_of_revelation": "makkah",
+        "name": "At-Tariq",
+        "translated_name": "The Nightcommer",
+        "verse_count": 17,
+        "slug": "at-tariq",
+        "codepoints": [
+            1575,
+            1604,
+            1591,
+            1575,
+            1585,
+            1602
+        ]
+    },
+    {
+        "chapter": "87",
+        "place_of_revelation": "makkah",
+        "name": "Al-A'la",
+        "translated_name": "The Most High",
+        "verse_count": 19,
+        "slug": "al-ala",
+        "codepoints": [
+            1575,
+            1604,
+            1571,
+            1593,
+            1604,
+            1609
+        ]
+    },
+    {
+        "chapter": "88",
+        "place_of_revelation": "makkah",
+        "name": "Al-Ghashiyah",
+        "translated_name": "The Overwhelming",
+        "verse_count": 26,
+        "slug": "al-ghashiyah",
+        "codepoints": [
+            1575,
+            1604,
+            1594,
+            1575,
+            1588,
+            1610,
+            1577
+        ]
+    },
+    {
+        "chapter": "89",
+        "place_of_revelation": "makkah",
+        "name": "Al-Fajr",
+        "translated_name": "The Dawn",
+        "verse_count": 30,
+        "slug": "al-fajr",
+        "codepoints": [
+            1575,
+            1604,
+            1601,
+            1580,
+            1585
+        ]
+    },
+    {
+        "chapter": "90",
+        "place_of_revelation": "makkah",
+        "name": "Al-Balad",
+        "translated_name": "The City",
+        "verse_count": 20,
+        "slug": "al-balad",
+        "codepoints": [
+            1575,
+            1604,
+            1576,
+            1604,
+            1583
+        ]
+    },
+    {
+        "chapter": "91",
+        "place_of_revelation": "makkah",
+        "name": "Ash-Shams",
+        "translated_name": "The Sun",
+        "verse_count": 15,
+        "slug": "ash-shams",
+        "codepoints": [
+            1575,
+            1604,
+            1588,
+            1605,
+            1587
+        ]
+    },
+    {
+        "chapter": "92",
+        "place_of_revelation": "makkah",
+        "name": "Al-Layl",
+        "translated_name": "The Night",
+        "verse_count": 21,
+        "slug": "al-layl",
+        "codepoints": [
+            1575,
+            1604,
+            1604,
+            1610,
+            1604
+        ]
+    },
+    {
+        "chapter": "93",
+        "place_of_revelation": "makkah",
+        "name": "Ad-Duhaa",
+        "translated_name": "The Morning Hours",
+        "verse_count": 11,
+        "slug": "ad-duhaa",
+        "codepoints": [
+            1575,
+            1604,
+            1590,
+            1581,
+            1609
+        ]
+    },
+    {
+        "chapter": "94",
+        "place_of_revelation": "makkah",
+        "name": "Ash-Sharh",
+        "translated_name": "The Relief",
+        "verse_count": 8,
+        "slug": "ash-sharh",
+        "codepoints": [
+            1575,
+            1604,
+            1588,
+            1585,
+            1581
+        ]
+    },
+    {
+        "chapter": "95",
+        "place_of_revelation": "makkah",
+        "name": "At-Tin",
+        "translated_name": "The Fig",
+        "verse_count": 8,
+        "slug": "at-tin",
+        "codepoints": [
+            1575,
+            1604,
+            1578,
+            1610,
+            1606
+        ]
+    },
+    {
+        "chapter": "96",
+        "place_of_revelation": "makkah",
+        "name": "Al-'Alaq",
+        "translated_name": "The Clot",
+        "verse_count": 19,
+        "slug": "al-alaq",
+        "codepoints": [
+            1575,
+            1604,
+            1593,
+            1604,
+            1602
+        ]
+    },
+    {
+        "chapter": "97",
+        "place_of_revelation": "makkah",
+        "name": "Al-Qadr",
+        "translated_name": "The Power",
+        "verse_count": 5,
+        "slug": "al-qadr",
+        "codepoints": [
+            1575,
+            1604,
+            1602,
+            1583,
+            1585
+        ]
+    },
+    {
+        "chapter": "98",
+        "place_of_revelation": "madinah",
+        "name": "Al-Bayyinah",
+        "translated_name": "The Clear Proof",
+        "verse_count": 8,
+        "slug": "al-bayyinah",
+        "codepoints": [
+            1575,
+            1604,
+            1576,
+            1610,
+            1606,
+            1577
+        ]
+    },
+    {
+        "chapter": "99",
+        "place_of_revelation": "madinah",
+        "name": "Az-Zalzalah",
+        "translated_name": "The Earthquake",
+        "verse_count": 8,
+        "slug": "az-zalzalah",
+        "codepoints": [
+            1575,
+            1604,
+            1586,
+            1604,
+            1586,
+            1604,
+            1577
+        ]
+    },
+    {
+        "chapter": "100",
+        "place_of_revelation": "makkah",
+        "name": "Al-'Adiyat",
+        "translated_name": "The Courser",
+        "verse_count": 11,
+        "slug": "al-adiyat",
+        "codepoints": [
+            1575,
+            1604,
+            1593,
+            1575,
+            1583,
+            1610,
+            1575,
+            1578
+        ]
+    },
+    {
+        "chapter": "101",
+        "place_of_revelation": "makkah",
+        "name": "Al-Qari'ah",
+        "translated_name": "The Calamity",
+        "verse_count": 11,
+        "slug": "al-qariah",
+        "codepoints": [
+            1575,
+            1604,
+            1602,
+            1575,
+            1585,
+            1593,
+            1577
+        ]
+    },
+    {
+        "chapter": "102",
+        "place_of_revelation": "makkah",
+        "name": "At-Takathur",
+        "translated_name": "The Rivalry in world increase",
+        "verse_count": 8,
+        "slug": "at-takathur",
+        "codepoints": [
+            1575,
+            1604,
+            1578,
+            1603,
+            1575,
+            1579,
+            1585
+        ]
+    },
+    {
+        "chapter": "103",
+        "place_of_revelation": "makkah",
+        "name": "Al-'Asr",
+        "translated_name": "The Declining Day",
+        "verse_count": 3,
+        "slug": "al-asr",
+        "codepoints": [
+            1575,
+            1604,
+            1593,
+            1589,
+            1585
+        ]
+    },
+    {
+        "chapter": "104",
+        "place_of_revelation": "makkah",
+        "name": "Al-Humazah",
+        "translated_name": "The Traducer",
+        "verse_count": 9,
+        "slug": "al-humazah",
+        "codepoints": [
+            1575,
+            1604,
+            1607,
+            1605,
+            1586,
+            1577
+        ]
+    },
+    {
+        "chapter": "105",
+        "place_of_revelation": "makkah",
+        "name": "Al-Fil",
+        "translated_name": "The Elephant",
+        "verse_count": 5,
+        "slug": "al-fil",
+        "codepoints": [
+            1575,
+            1604,
+            1601,
+            1610,
+            1604
+        ]
+    },
+    {
+        "chapter": "106",
+        "place_of_revelation": "makkah",
+        "name": "Quraysh",
+        "translated_name": "Quraysh",
+        "verse_count": 4,
+        "slug": "quraysh",
+        "codepoints": [
+            1602,
+            1585,
+            1610,
+            1588
+        ]
+    },
+    {
+        "chapter": "107",
+        "place_of_revelation": "makkah",
+        "name": "Al-Ma'un",
+        "translated_name": "The Small kindnesses",
+        "verse_count": 7,
+        "slug": "al-maun",
+        "codepoints": [
+            1575,
+            1604,
+            1605,
+            1575,
+            1593,
+            1608,
+            1606
+        ]
+    },
+    {
+        "chapter": "108",
+        "place_of_revelation": "makkah",
+        "name": "Al-Kawthar",
+        "translated_name": "The Abundance",
+        "verse_count": 3,
+        "slug": "al-kawthar",
+        "codepoints": [
+            1575,
+            1604,
+            1603,
+            1608,
+            1579,
+            1585
+        ]
+    },
+    {
+        "chapter": "109",
+        "place_of_revelation": "makkah",
+        "name": "Al-Kafirun",
+        "translated_name": "The Disbelievers",
+        "verse_count": 6,
+        "slug": "al-kafirun",
+        "codepoints": [
+            1575,
+            1604,
+            1603,
+            1575,
+            1601,
+            1585,
+            1608,
+            1606
+        ]
+    },
+    {
+        "chapter": "110",
+        "place_of_revelation": "madinah",
+        "name": "An-Nasr",
+        "translated_name": "The Divine Support",
+        "verse_count": 3,
+        "slug": "an-nasr",
+        "codepoints": [
+            1575,
+            1604,
+            1606,
+            1589,
+            1585
+        ]
+    },
+    {
+        "chapter": "111",
+        "place_of_revelation": "makkah",
+        "name": "Al-Masad",
+        "translated_name": "The Palm Fiber",
+        "verse_count": 5,
+        "slug": "al-masad",
+        "codepoints": [
+            1575,
+            1604,
+            1605,
+            1587,
+            1583
+        ]
+    },
+    {
+        "chapter": "112",
+        "place_of_revelation": "makkah",
+        "name": "Al-Ikhlas",
+        "translated_name": "The Sincerity",
+        "verse_count": 4,
+        "slug": "al-ikhlas",
+        "codepoints": [
+            1575,
+            1604,
+            1573,
+            1582,
+            1604,
+            1575,
+            1589
+        ]
+    },
+    {
+        "chapter": "113",
+        "place_of_revelation": "makkah",
+        "name": "Al-Falaq",
+        "translated_name": "The Daybreak",
+        "verse_count": 5,
+        "slug": "al-falaq",
+        "codepoints": [
+            1575,
+            1604,
+            1601,
+            1604,
+            1602
+        ]
+    },
+    {
+        "chapter": "114",
+        "place_of_revelation": "makkah",
+        "name": "An-Nas",
+        "translated_name": "Mankind",
+        "verse_count": 6,
+        "slug": "an-nas",
+        "codepoints": [
+            1575,
+            1604,
+            1606,
+            1575,
+            1587
+        ]
+    }
+]
