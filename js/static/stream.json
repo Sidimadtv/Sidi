@@ -1,0 +1,43 @@
+[{  
+    "name": "113.fm Alternative-Rock",
+    "logo": "assets/113fm_logo.jpg",
+    "stream_url": "https://113fm-atunwadigital.streamguys1.com/1001",
+    "id3_info": "From guitar riffs to mellow beats, we've got you covered.",
+    "description": "The biggest Alternative hits from the '90s.",
+    "xtra_info": ["Alt-Rock","English"," 128kbps","Yes"]
+},{
+    "name":"181.fm Classical",
+    "id3_info": "https://player.181fm.com/streamdata.php?h=listen.181fm.com&p=7080&i=181-classical_128k.mp3&https=&f=ice&c=818600",
+    "stream_url": "https://listen.181fm.com/181-classical_128k.mp3?listenerId=esAdblock0185051&aw_0_1st.playerid=esPlayer&aw_0_1st.skey=1670382069"
+},{
+    "name": "Radio.de 90er",
+    "logo":"",
+    "stream_url":"https://www.radio.de/_next/data/GOBFXdM8u3ezLy-UNiSTB/de-DE/s/90er.json?slug=90er",
+    "id3_info":"https://prod.radio-api.net/stations/now-playing?stationIds=90er",
+    "description": "Der best 90er",
+    "site":"",
+    "xtra_info":["Top 40s","Deutsch",128,true]
+},{
+    "name":"WCPE, The Classical Station",
+    "logo":"assets/classicalStation.png",
+    "stream_url": "http://playerservices.streamtheworld.com/api/livestream-redirect/WCPE_FMAAC128.aac",
+    "id3_info":"",
+    "description":"is a non-commercial, independent, listener-supported station broadcasting from North Carolina.",
+    "xtra_info":["Classical","English",128,false]
+},{
+    "name": "Drawing with words",
+    "logo": "https://s3-us-west-2.amazonaws.com/s.cdpn.io/38273/3rdburglar-cover-192.jpg",
+    "stream_url":"https://s3-us-west-2.amazonaws.com/s.cdpn.io/38273/Wordburglar_Drawings_with_Words.mp3",
+    "id3_info": "",
+    "description": "Skeuomorphic Audio Player",
+    "site": "https://codepen.io/joshbader/pen/GqXbVZ",
+    "xtra_info":["WordBurglar","English",128,false]
+},{
+    "name":"Emilie-Claire Barlow - Les yeux ouverts",
+    "stream": "",
+    "logo": "https://f4.bcbits.com/img/a1087795934_10.jpg"
+},{
+    "name":"Marian Call- Homeward bound",
+    "stream": "",
+    "art": "https://f4.bcbits.com/img/a2694757447_10.jpg"
+}]
