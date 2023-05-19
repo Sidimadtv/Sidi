@@ -15,8 +15,8 @@ function createNavbar() {
         <ul class="links">
           <a href="index.html"><li>Home</li></a>
           <a href="Hijri-calendar.html"><li>Hijri Calendar</li></a>
-          <a href="Holy-Quran.html"><li>Holy Quran</li></a>
-          <a href="ahadith.html"><li>Ahadith</li></a>
+          <a href="Holy-Quran.html"><li>Al-Quran</li></a>
+          <a href="ahadith.html"><li>Al-Hadith</li></a>
           <a href="adhkar.html"><li>Adhkar</li></a>
         </ul>
       </div>
@@ -55,7 +55,7 @@ function createFooter() {
   footer.innerHTML = `
       <div class="developer" style="margin-bottom:10px;">
         Developed with all <i class="fa-solid fa-heart" style="color:tomato;"></i> by
-        <b>Shawky Ebhraim</b>
+        <b>S!D!M@D</b>
       </div>
       <div class="links">
         <a href="https://www.facebook.com/shawky.ebrahim.ahmed/"
@@ -64,9 +64,7 @@ function createFooter() {
         <a href="https://www.linkedin.com/in/shawkyebrahim2514/"
           ><i class="fa-brands fa-linkedin fa-lg"></i
         ></a>
-        <a href="https://t.me/shawkyebrahim2514"
-          ><i class="fa-brands fa-telegram fa-lg"></i
-        ></a>
+       
         <a href="mailto:shawky.ebrahim2514@gmail.com"
           ><i class="fa-solid fa-at fa-lg"></i
         ></a>
