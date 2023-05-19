@@ -1,0 +1,456 @@
+@font-face {
+    font-family: 'Amiri';
+    src: url('../fonts/Amiri/Amiri-Regular.ttf');
+    font-weight: 400;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Amiri';
+    src: url('../fonts/Amiri/Amiri-Bold.ttf');
+    font-weight: 700;
+    font-style: bold;
+}
+
+@font-face {
+    font-family: 'Roboto';
+    src: url('../fonts/Roboto/Roboto-Regular.ttf');
+    font-weight: 400;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Roboto';
+    src: url('../fonts/Roboto/Roboto-Italic.ttf');
+    font-weight: 400;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Roboto';
+    src: url('../fonts/Roboto/Roboto-Medium.ttf');
+    font-weight: 500;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Roboto';
+    src: url('../fonts/Roboto/Roboto-MediumItalic.ttf');
+    font-weight: 500;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Roboto';
+    src: url('../fonts/Roboto/Roboto-Light.ttf');
+    font-weight: 300;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Roboto';
+    src: url('../fonts/Roboto/Roboto-LightItalic.ttf');
+    font-weight: 300;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Roboto';
+    src: url('../fonts/Roboto/Roboto-Bold.ttf');
+    font-weight: 700;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Roboto';
+    src: url('../fonts/Roboto/Roboto-BoldItalic.ttf');
+    font-weight: 700;
+    font-style: italic;
+}
+
+body {
+    font-family: 'Roboto', 'Amiri', sans-serif;
+    background-color: #F3F3F3;
+    width: 100%;
+    height: 100%;
+    padding: 0;
+    margin: 0;
+    overflow: hidden;
+    font-size: 18px;
+}
+
+hr {
+    background-color: rgb(0, 0, 0);
+    border: none;
+    height: 2px;
+    border-radius: 1px;
+}
+
+.number {
+    width: 2.2rem;
+    height: 2.2rem;
+    background-color: #000;
+    color: #FFF;
+    text-align: center;
+    font-weight: 300;
+}
+
+.link {
+    text-decoration: none;
+    color: #000;
+    transition: all 150ms;
+}
+
+.link:hover {
+    color: #414141;
+    text-decoration: underline;
+}
+
+.link:active {
+    color: #919191 !important;
+}
+
+.link:focus {
+    color: #1F1F1F;
+}
+
+/* width */
+::-webkit-scrollbar {
+    width: 5px;
+    border-radius: 5px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+    background: rgba(0, 0, 0, 0);
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+    background: rgba(0, 0, 0, 0.1);
+    border-radius: 2.5px;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+    background: rgba(0, 0, 0, 0.2);
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:active {
+    background: rgba(0, 0, 0, 0.3);
+}
+
+.sura-li {
+    font-size: 28px;
+    line-height: 72px;
+    font-family: 'Amiri', serif;
+    text-align: end;
+}
+
+.navbar {
+    height: 60px;
+    position: sticky;
+    background-color: #F3F3F3;
+    z-index: 9999;
+    width: 100;
+    margin: 0;
+    top: 0;
+    display: flex;
+    padding-left: 20px;
+}
+
+.navbar > * {
+    width: max-content;
+    white-space: nowrap;
+}
+
+.navbar-middle {
+    width: 100% !important;
+    -webkit-user-select: none;
+    -webkit-app-region: drag;
+}
+
+.window-button-container {
+    flex-basis: 40px;
+    height: 100%;
+    flex-grow: 0;
+    flex-shrink: 0;
+    height: 60px;
+    background-color: rgba(0, 0, 0, 0);
+    border: none;
+    font-size: 18px;
+    transition: all 150ms;
+    display: none;
+    place-items: center;
+}
+
+.window-button {
+    width: 30px;
+    height: 30px;
+    border-radius: 100%;
+    border: 0;
+    background-color: rgba(0, 0, 0, 0);
+    transition: all 150ms;
+    user-drag: none;
+}
+
+.window-button:hover {
+    background-color: rgba(0, 0, 0, 0.1);
+}
+
+.window-button:active {
+    background-color: rgba(0, 0, 0, 0.2) !important;
+}
+
+.main-sidebar {
+    position: fixed;
+    padding-left: 12.5px;
+    padding-right: 12.5px;
+    height: 100%;
+    z-index: 3;
+}
+
+.sidebar-buttons {
+    width: 35px;
+    height: 35px;
+    background-color: rgba(0, 0, 0, 0);
+    border-radius: 17.5px;
+    display: block;
+    display: grid;
+    box-sizing: border-box;
+    padding: 8px;
+    color: #000;
+    text-decoration: none;
+    transition: all 150ms;
+    margin-top: 12.5px;
+    text-align: center;
+}
+
+.sidebar-buttons:hover {
+    background-color: rgba(0, 0, 0, 0.1);
+}
+
+.sidebar-buttons:active {
+    background-color: rgba(0, 0, 0, 0.2) !important;
+}
+
+.sidebar-buttons:focus {
+    background-color: rgba(0, 0, 0, 0.1) !important;
+}
+
+.sidebar {
+    position: fixed;
+    height: 100%;
+    width: 230px;
+    background-color: #F3F3F3;
+    z-index: 1;
+    margin-left: 60px;
+}
+
+.main {
+    margin-left: 290px;
+    background-color: #FFF;
+    border-top-left-radius: 15px;
+    z-index: 3;
+}
+
+.height-no-scroll {
+    overflow: hidden;
+    height: calc(100svh - 60px);
+}
+
+.scroll {
+    overflow: auto;    
+    height: 100%;
+    box-sizing: border-box;
+}
+
+.main-content-padding {
+    padding: 20px;
+    padding-left: 40px;
+    padding-bottom: 62px;
+}
+
+.title {
+    font-weight: 500;
+    color: #000;
+    margin-bottom: 5px;
+}
+
+.subtitle {
+    margin-top: -10px;
+    font-weight: 300;
+    color: #1F1F1F;
+}
+
+.side-buttons {
+    display: block;
+    width: 100%;
+    margin-bottom: 5px;
+    margin-top: 5px;
+    padding: 15px;
+    text-decoration: none;
+    border-top-right-radius: 1000px;
+    border-bottom-right-radius: 1000px;
+    background-color: rgba(0, 0, 0, 0);
+    color: black;
+    font-weight: 500;
+    transition: all 150ms;
+    box-sizing: border-box;
+}
+
+.side-buttons:hover {
+    background-color: rgba(0, 0, 0, 0.1);
+    color: black;
+}
+
+.side-buttons:active {
+    background-color: rgba(0, 0, 0, 0.2) !important;
+    color: black;
+}
+
+.side-buttons:focus {
+    background-color: rgba(0, 0, 0, 0.1);
+    color: black;
+}
+.scroll-auto {
+    overflow: hidden;
+}
+
+.scroll-auto:hover {
+    overflow: auto;
+}
+
+#scroll-sura {
+    height: calc(100% - 60px);
+}
+
+.sidebar-links {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    height: 18px;
+    padding: 12px;
+    z-index: 2;
+    border-top-right-radius: 10px;
+    background-color: #F3F3F3;
+    display: none;
+}
+
+.dropdown-button {
+    margin: 10px;
+    border-radius: 7px;
+    padding: 10px;
+    background-color: rgba(0, 0, 0, 0);
+    transition: all 150ms;
+    cursor: pointer;
+}
+
+.dropdown-button:hover {
+    background-color: rgba(0, 0, 0, 0.1);
+}
+
+.dropdown-button:active {
+    background-color: rgba(0, 0, 0, 0.2) !important;
+}
+
+.dropdown:focus .dropdown-button {
+    background-color: rgba(0, 0, 0, 0.1);
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #ffffff;
+    margin: 10px;
+    border-radius: 7px;
+    width: calc(100% - 20px);
+    z-index: 9999;
+    box-shadow: 0px 0px 8px 0px rgba(0, 0, 0, 0.185);
+    box-sizing: border-box;
+}
+
+.dropdown:focus .dropdown-content {
+  display: block;
+}
+
+.dropdown:focus .dropdown-content {
+    display: block;
+  }
+
+.dropdown-content:active {
+    display: block;
+}
+
+.dropdown-item {
+    display: block;
+    padding: 10px;
+    text-decoration: none;
+    color: #000;
+    transition: all 150ms;
+    background-color: #ffffff;
+    border-radius: 7px;
+}
+
+.dropdown-item:hover {
+    background-color: #f0f0f0;
+}
+
+.dropdown-item:focus {
+    background-color: #dbdbdb;
+}
+
+.navbar-logo {
+    display: flex; 
+    align-items: center;
+}
+
+.navbar-logo-img {
+    height: 40px;  
+    flex-grow: 0; 
+    flex-shrink: 0;
+}
+
+.navbar-logo-txt {
+    font-size: 20px; 
+    display: inline-block;
+    margin-left: 10px;
+    color: #000;
+    text-decoration: none;
+}
+
+#dropdown-alternate {
+    display: none;
+}
+
+@media screen and (max-width: 480px) { 
+    .sidebar {
+        display: none;
+    }
+
+    .main {
+        border-top-left-radius: 0;
+        margin-left: 0 !important;
+    }
+
+    #dropdown-alternate {
+        display: block;
+    }
+
+    #navbar-text {
+        display: none;
+    }
+
+    .window-button-container {
+        display: none;
+    }
+
+    .sidebar-links {
+        display: block;
+    }
+
+    .main-sidebar {
+        display: none;
+    }
+}
