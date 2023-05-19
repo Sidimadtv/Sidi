@@ -1,0 +1,177 @@
+@import url("./audio-player.css");
+
+section.quran-player > .container {
+  border: 2px solid var(--dark-2);
+  margin: 10px auto;
+  padding: 0;
+  width: 96%;
+  display: grid;
+  gap: 20px;
+}
+
+section.quran-player header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10px 0 0;
+  gap: 10px;
+  flex-direction: column;
+  background-color: var(--dark-2);
+}
+
+.quran-player section.settings {
+  color: var(--light-1);
+  margin-bottom: 5px;
+  cursor: pointer;
+}
+
+.quran-player section.quran-selections {
+  display: none;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 10px;
+  font-size: 1rem;
+}
+
+.quran-player section.quran-selections > div {
+  background-color: white;
+  width: 300px;
+  border-radius: 5px;
+  cursor: pointer;
+  position: relative;
+}
+
+.quran-player section.quran-selections .selection-name {
+  padding: 5px 15px;
+  direction: rtl;
+}
+
+.quran-player section.quran-selections .selection-list {
+  display: none;
+  position: absolute;
+  top: 105%;
+  left: 0;
+  width: 100%;
+  background-color: white;
+  border-radius: 5px;
+  box-shadow: 0 0 5px 0 rgba(0, 0, 0, 0.2);
+  z-index: 1;
+  overflow: hidden;
+  max-height: 200px;
+  overflow-y: auto;
+}
+
+.show {
+  display: block !important;
+}
+
+.show-flex {
+  display: flex !important;
+}
+
+.selected {
+  color: var(--light-1);
+  background-color: var(--main-color-2) !important;
+}
+
+.quran-player section.quran-selections .selection-list p {
+  padding: 5px 15px;
+  margin: 0;
+  cursor: pointer;
+  direction: rtl;
+  text-align: right;
+}
+
+.quran-player section.quran-selections .selection-list p:hover {
+  background-color: #eee;
+}
+
+section.quran-player header section.quran-text-surahs {
+  display: flex;
+  justify-content: space-around;
+  font-size: 1.3rem;
+  background: #e5e5e5;
+  width: 100%;
+  padding: 5px 0;
+}
+
+section.quran-player section.quran-text {
+  font-size: 1.5rem;
+  direction: rtl;
+  padding: 0 10px;
+}
+
+section.quran-player section.quran-text p.ayah-text {
+  display: inline;
+  cursor: pointer;
+  padding: 15px 5px 15px 0;
+  line-height: 61px;
+}
+
+section.quran-player section.quran-text p.ayah-text:hover {
+  background-color: #eee;
+}
+
+section.quran-player section.quran-text p.ayah-text.active {
+  background-color: var(--main-color-2);
+  color: var(--light-1);
+  position: relative;
+}
+
+span.ayah-symbol-number {
+  font-size: 0.88rem;
+  font-weight: bold;
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  width: 36px;
+  position: relative;
+  top: -6px;
+  line-height: 36px;
+}
+
+span.ayah-symbol-number svg {
+  position: absolute;
+}
+
+section.quran-player section.quran-text p.ayah-text.active span.ayah-number {
+  color: var(--light-1);
+}
+
+section.quran-player footer {
+  padding: 0;
+}
+
+section.quran-player .quran-text .basmala:not(:first-child) {
+  margin-top: 20px;
+}
+
+section.quran-player .quran-text .surah-name {
+  position: relative;
+  color: var(--dark-2);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 4px 0;
+  background-color: #e5e5e5;
+  max-width: 375px;
+  margin: 0 auto;
+  border-radius: 18px;
+  border: 2px solid var(--dark-2);
+  font-family: alQuranFont;
+  font-weight: bold;
+  /* font-size: 2rem; */
+}
+
+section.quran-player .quran-text .surah-name:not(:first-child) {
+  margin-top: 20px;
+}
+
+section.quran-player .quran-text .surah-name:has(+ :not(.basmala)) {
+  margin-bottom: 20px;
+}
+
+section.quran-player .quran-text .surah-name svg {
+  position: absolute;
+}

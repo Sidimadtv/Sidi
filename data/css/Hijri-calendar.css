@@ -1,0 +1,139 @@
+@import url("./Hijri-timing.css");
+
+main > section:first-child {
+  padding: 0 0 2rem;
+}
+
+section:has(input) .container {
+  display: flex;
+  justify-content: center;
+  font-size: 1.2rem;
+}
+
+input {
+  width: 55%;
+  margin-left: 25px;
+  border-radius: var(--border-radius);
+  padding: 5px 20px;
+  font-size: 1.2rem;
+}
+
+.container {
+  align-items: center;
+}
+
+section:has(input) + section h2 {
+  color: var(--main-color-1);
+  position: relative;
+}
+
+section:has(input) + section .content {
+  display: flex;
+  gap: 30px;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+section:has(input) + section h2::before,
+section:has(input) + section h2::after {
+  content: "";
+  position: absolute;
+  width: 20%;
+  height: 2px;
+  top: 50%;
+  background-color: var(--main-color-1);
+}
+
+section:has(input) + section h2::before {
+  left: calc(50% + 120px);
+}
+
+section:has(input) + section h2::after {
+  right: calc(50% + 120px);
+}
+
+.card::before {
+  content: counter(cardCounter);
+  position: absolute;
+  top: -10px;
+  left: -10px;
+  /* background-color: var(--main-color-1); */
+  background: var(--gradient);
+  color: var(--main-color-3);
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.card p:first-child {
+  font-weight: bold;
+  color: var(--main-color-1);
+}
+
+.card p:nth-child(2) {
+  direction: rtl;
+}
+
+/* Hijri Timing overlay */
+.Gregorian-Hijri-overlay {
+  z-index: 20;
+  position: fixed;
+  background-color: #fff3eacf;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.Gregorian-Hijri-overlay > .container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  width: 100%;
+  max-width: 500px;
+  height: fit-content;
+  text-align: center;
+  font-size: 1.2rem;
+  filter: var(--drop-shadow);
+  z-index: 30;
+}
+
+.Gregorian-Hijri-overlay div {
+  width: 100%;
+}
+
+.Gregorian-Hijri-overlay .container div:nth-of-type(2) p {
+  direction: rtl;
+}
+
+.Gregorian-Hijri-overlay h3 {
+  /* background-color: var(--main-color-1); */
+  background: var(--gradient);
+  color: var(--light-1);
+  padding: 5px 10px;
+}
+
+.Gregorian-Hijri-overlay p {
+  background-color: var(--light-1);
+  padding: 5px 10px;
+}
+
+.Gregorian-Hijri-overlay .row {
+  padding: 5px 10%;
+  border: inherit;
+  border-radius: inherit;
+  display: flex;
+  justify-content: space-between;
+  gap: 50px;
+}
+
+.prayer-timings > .row:first-of-type {
+  color: var(--main-color-1);
+}
