@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles/style.css">
+    <link href="styles/css/fontawesome.css" rel="stylesheet">
+    <link href="styles/css/brands.css" rel="stylesheet">
+    <link href="styles/css/solid.css" rel="stylesheet">
+    <link rel="icon" href="images/favicon.png">
+    <link rel="manifest" href="manifest.json">
+    <!-- ios support -->
+    <link rel="apple-touch-icon" href="images/favicon.png">
+    <meta name="apple-mobile-web-app-status-bar" content="#f3f3f3">
+    <title>OpenQuran</title>
+</head>
+
+<body onload="load() ">
+    <script src="scripts/window-buttons.js" defer></script>
+    <script src="scripts/main.js" defer></script>
+    <script src="scripts/service-worker.js" defer></script>
+
+    <script defer>
+        function load() {
+            try {
+                process.versions['electron'];
+                var windowBtns = document.getElementsByClassName('window-button-container');
+
+                for (var i = 0; i < windowBtns.length; i++) {
+                    windowBtns[i].style.display = 'grid';
+                }
+
+                document.getElementById('openquran-link').href = 'index.html'
+                document.getElementById('openquran-home').href = 'index.html'
+            } catch {
+                var windowBtns = document.getElementsByClassName('window-button-container');
+
+                for (var i = 0; i < windowBtns.length; i++) {
+                    windowBtns[i].style.display = 'none';
+                }
+            }
+        }
+    </script>
+
+    <div class="navbar">
+        <a href="./" style="text-decoration: none;" id="openquran-link">
+            <div class="navbar-logo">
+                <img src="images/favicon.png" alt="" class="navbar-logo-img">
+                <p class="navbar-logo-txt"><b>OpenQuran</b></p>
+            </div>
+        </a>
+        <div class="navbar-middle"></div>
+        <div class="window-button-container">
+            <button class="window-button" id="minimize">
+                <i class="fa-solid fa-minus"></i>
+            </button>
+        </div>
+        <div class="window-button-container" id="maximize">
+            <button class="window-button" style="display: grid; place-items: center;">
+                <img src="images/maximize.png" alt="" style="width: 12px;">
+            </button>
+        </div>
+        <div class="window-button-container" style="margin-right: 15px">
+            <button onclick="window.top.close()" class="window-button">
+                <i class="fa-solid fa-xmark"></i>
+            </button>
+        </div>
+    </div>
+    <div id="main-container">
+        <div class="main-sidebar">
+            <a href="./" class="sidebar-buttons" id="openquran-home"><i class="fa-solid fa-house"></i></a>
+            <a href="sura.html" class="sidebar-buttons"><i class="fa-solid fa-quran"></i></a>
+            <a href="attribution.html" class="sidebar-buttons"><i class="fa-solid fa-scroll"></i></a>
+        </div>
+        <div class="main height-no-scroll" style="margin-left: 60px;">
+            <div class="scroll main-content-padding">
+                <div style="max-width: 1200px; margin-left: auto; margin-right: auto;">
+                    <h1 id="header" class="title" style="text-align: center;">Credits & Attribution</h1>
+                    <hr style="margin-top: 20px; height: 2px; background-color: black; border: none;">
+                    <br>
+                    <a href="https://github.com/altaf-creator/OpenQuran" target=_blank class="link"
+                        style="text-align: center; width: 100%; display: inline-block;"><i
+                            class="fa-brands fa-github"></i> GitHub</a>
+                    <h2>Quran Text, Metadata, & Translations</h2>
+                    <a href="https://tanzil.net/docs/resources" class="link" target=_blank>The Tanzil Project</a>
+                    <h2>Developer</h2>
+                    <a href="https://altaf-creator.github.io/" class="link" target=_blank>altaf-creator</a>
+                    <h2>Icons</h2>
+                    <a href="https://fontawesome.com/" class="link" target="_blank">Font Awesome - licensed under the CC
+                        BY 4.0 license</a>
+                    <h2>More Information</h2>
+                    <ul>
+                        <li><b>Script Type:</b> Uthmani</li>
+                        <li><b>English Translation Author:</b> Saheeh International</li>
+                        <li><b>Indonesia Translation Author:</b> Kementerian Agama Indonesia</li>
+                    </ul>
+                    <a href="https://altaf.mit-license.org/" target=_blank class="link"
+                        style="text-align: center; width: 100%; display: inline-block;"><i>Licensed under the MIT
+                            License</i></a>
+                </div>
+            </div>
+        </div>
+    </div>=
+</body>
+
+</html>
