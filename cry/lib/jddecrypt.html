@@ -1,0 +1,80 @@
+<!doctype html>
+<html class="staticrypt-html">
+<head>
+    <meta charset="utf-8">
+    <title>{title}</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="https://fonts.googleapis.com/css2?family=Reem+Kufi:wght@400;700&display=swap" rel="stylesheet">
+    <meta http-equiv="cache-control" content="no-cache"/>
+
+    <style>
+        .staticrypt-body { background: #131722; margin: 0; height: 100%; }
+        .staticrypt-spinner-container {
+            height: 100vh;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+        .staticrypt-spinner {
+            width: 3rem;
+            height: 3rem;
+            border: 0.35em solid #f3ab65;
+            border-right-color: transparent;
+            border-radius: 50%;
+            animation: spinner-border .75s linear infinite;
+        }
+        @keyframes spinner-border { 100% { transform: rotate(360deg); } }
+        .hidden { display: none !important; }
+    </style>
+</head>
+
+<body class="staticrypt-body">
+
+<!-- Only the loading spinner is visible to the user -->
+<div id="staticrypt_loading" class="staticrypt-spinner-container">
+    <div class="staticrypt-spinner"></div>
+</div>
+
+{crypto_tag}
+
+<script>
+    var cryptoEngine = {js_crypto_engine};
+    var codec = {js_codec};
+    var decode = codec.init(cryptoEngine).decode;
+
+    // These variables are filled by your generator tool
+    var encryptedMsg = '{encrypted}',
+        salt = '{salt}';
+
+    /**
+     * AUTO-DECRYPT LOGIC
+     * We use a fixed "internal" password that matches what your generator uses.
+     */
+    function autoDecrypt() {
+        // This must match the passphrase you set in your generator tool
+        var passphrase = "S!D!M@D_AUTO_KEY"; 
+        
+        // 1. Hash the passphrase with the salt
+        var hashedPassphrase = cryptoEngine.hashPassphrase(passphrase, salt);
+        
+        // 2. Attempt decryption
+        var result = decode(encryptedMsg, hashedPassphrase);
+        
+        if (result.success) {
+            // 3. Replace the entire page with the decrypted HTML
+            document.open();
+            document.write(result.decoded);
+            document.close();
+        } else {
+            // If it fails, show an error (usually happens if the salt/key mismatch)
+            document.getElementById("staticrypt_loading").innerHTML = "<p style='color:white; font-family:sans-serif;'>حدث خطأ في تحميل الصفحة</p>";
+        }
+    }
+
+    // Run the decryption immediately when the script loads
+    window.onload = function () {
+        autoDecrypt();
+    };
+</script>
+</body>
+</html>
