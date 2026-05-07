@@ -1,0 +1,68 @@
+<!doctype html>
+<html class="staticrypt-html">
+<head>
+    <meta charset="utf-8">
+    <title>تحميل...</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta http-equiv="cache-control" content="no-cache"/>
+    <style>
+        body { background-color: #131722; margin: 0; display: flex; align-items: center; justify-content: center; height: 100vh; }
+        .spinner {
+            width: 50px;
+            height: 50px;
+            border: 5px solid #f3ab65;
+            border-top-color: transparent;
+            border-radius: 50%;
+            animation: spin 1s linear infinite;
+        }
+        @keyframes spin { 100% { transform: rotate(360deg); } }
+    </style>
+</head>
+<body>
+
+    <div id="loader" class="spinner"></div>
+
+    <!-- CryptoJS Library -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/crypto-js/3.1.9-1/crypto-js.min.js"></script>
+
+    <script>
+        // --- DATA SECTION (Filled by your generator) ---
+        var encryptedMsg = '{encrypted}'; 
+        var salt = '{salt}';
+        var autoKey = "S!D!M@D_AUTO_KEY"; // The internal key
+
+        // --- AUTO DECRYPT LOGIC ---
+        window.onload = function () {
+            try {
+                // 1. Re-generate the key from the password and salt
+                // This mimics exactly how StatiCrypt works
+                var key = CryptoJS.PBKDF2(autoKey, CryptoJS.enc.Hex.parse(salt), {
+                    keySize: 256 / 32,
+                    iterations: 1000
+                });
+
+                // 2. Decrypt
+                var decrypted = CryptoJS.AES.decrypt(encryptedMsg, key, {
+                    iv: CryptoJS.enc.Hex.parse(salt.substring(0, 32)), // Basic IV derivation
+                    padding: CryptoJS.pad.Pkcs7,
+                    mode: CryptoJS.mode.CBC
+                });
+
+                var plainText = decrypted.toString(CryptoJS.enc.Utf8);
+
+                if (plainText) {
+                    // 3. Success! Replace page with content
+                    document.open();
+                    document.write(plainText);
+                    document.close();
+                } else {
+                    document.body.innerHTML = "<p style='color:white;'>Error: Decryption Failed.</p>";
+                }
+            } catch (e) {
+                console.error(e);
+                document.body.innerHTML = "<p style='color:white;'>Error: System Failure.</p>";
+            }
+        };
+    </script>
+</body>
+</html>
